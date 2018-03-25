@@ -3,14 +3,20 @@
 			<a href="#" id="logo">Scarlett</a>
 			<nav>
 				<ul>
-					<li><a href="#" class="navs">Sign In</a></li>
-					<li><a href="#" class="navs">Create</a></li>
+					<% unless podcast_signed_in? %>
+					<li><%= link_to "Sign In", new_podcast_session_path, class: "navs" %></li>
+					<li><%= link_to "Create", new_podcast_session_path, class: "navs" %></li>
+					<% else %>
+						<li><a href="" class="navs">Dashboard</a></li>
+						<li><a href="" class="navs">Explore</a></li>
+						<li><%= link_to "Sign Out", destroy_podcast_session_path, method: :delete, class: "navs" %></li>
+					<% end %>
 				</ul>
 			</nav>
 		</header>
 		<div class="wrapper_skinny">
 			<h1>Discover new songs, based on your mood.</h1>
-			<a href="#" class="button">Sign In</a>
+			<%= link_to "Create", new_podcast_registration_path, class: "button" %>
 			<a href="#" class="button">Sign Up</a>
 		</div>
 </div>
