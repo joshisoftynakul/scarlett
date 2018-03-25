@@ -1,0 +1,19 @@
+<div id="banner" class="podcasts_banner">
+	<h1>Discover new Music</h1>
+</div>
+
+<div id="podcasts" class="cf">
+	<div class="wrapper">
+		<ul class="cf">
+			<% @podcasts.each do |podcast| %>
+				<%= link_to podcast do %>
+					<li>
+						<div class="podcast_overview">
+							<h2><%= podcast.title %></h2>				
+						</div>
+					</li>
+				<% end %>
+			<% end %>
+		</ul>
+	</div>
+</div>
