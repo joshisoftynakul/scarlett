@@ -1,0 +1,260 @@
+
+
+#background{
+	background-image: url("homepage_background.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper_wide{
+	width: 90%;
+	margin: 0 auto;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.wrapper_skinny{
+	width: 60%;
+	margin: 0 auto;
+}
+header{
+	padding: 3rem 0;	
+}
+#background header #logo{
+	float: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 1.5rem;
+	letter-spacing: 2.5px;
+	text-decoration: none;
+}
+nav{
+	float: right;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+li{
+	display: inline;
+	margin-left: 2.5rem;
+	font-size: 1.2rem;
+}
+a.navs{
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 60px;
+}
+.cf:before, .cf:after{
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.wrapper_skinny h1{
+	color: #ffffff;
+	font-size: 3.5rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: 10rem 0 2rem 0;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.button{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1rem;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	background: #d2674e;
+	transition: background .4s ease-in-out;
+}
+.button:hover{
+	background: #bd5c46;
+}
+.button_block {
+	display: block;
+	margin: 0 auto;
+}
+.field{
+	margin: .5rem ;
+}
+input[type="email"], input[type="text"], input[type="password"], textarea{
+	width: 100%;
+}
+
+
+/* sign up in */
+body{
+	color: #2c3e50;
+	font-family: 'Open Sans',sans-serif;
+}
+#main_header{
+	background: #ffffff;
+	padding: 2.5rem 0;
+	color: #2c3e50;
+}
+
+.wrapper_wide{
+	width: 90%;
+	margin: 0 auto;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.wrapper_skinny{
+	width: 60%;
+	margin: 0 auto;
+}
+ #logo{
+	float: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2c3e50;
+	font-size: 1.5rem;
+	letter-spacing: 2.5px;
+	text-decoration: none;
+	padding-left: 40px;
+}
+#navigation{
+	float: right;
+}
+#navul{
+	list-style: none;
+	margin: 0;
+}
+.navli{
+	display: inline;
+	margin-left: 2.5rem;
+	font-size: 1.2rem;
+}
+a{
+	color: #2c3e50;
+	text-decoration: none;
+}
+#logo{
+	float: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2c3e50;
+	font-size: 1.5rem;
+	letter-spacing: 2.5px;
+	text-decoration: none;
+}
+.cf:before, .cf:after{
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+#banner{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 4rem;	
+}
+.podcasts_banner{
+	background-image: url("podcasts_banner.jpg");
+
+}
+.signin_banner{
+	background-image: url("sign_in_banner.jpg");
+}
+.signup_banner{
+	background-image: url("sign_up_banner.jpg");
+}
+#banner h1{
+	text-align: center;
+	color: #ffffff;
+	font-size: 3rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin:0;
+	padding: 8rem 0;
+}
+
+#podcasts{
+	padding-bottom: 3rem;
+}
+#podcasts ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+#podcasts li{
+	width: 23%;
+	float: left;
+	margin: 0 1% 2rem 1%;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
+}
+#podcasts img{
+	width: 100%;
+	max-width: 100%;
+	border-radius: 0.45rem .45rem 0 0;
+}
+.podcast_overview{
+	padding: 1rem 7.5%;
+}
+.podcast_overview h2{
+	margin: ;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color:#2c3e50;
+}
+
+/* podcast_show */
+#episodes{
+	padding: 3rem 0;
+}
+#episodes ul{
+	list-style: none;
+	padding-left: 0;
+}
+#episodes li{
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #2c3e50;
+}
+.episode_thumbnail{
+	width: 25%;
+	float: left;
+}
+.episode_thumbnail img{
+	width: 10rem;
+	max-width: 100%;
+	border-radius: .45rem;
+}
+
+/* dashboard */
+#links{
+	padding: 2rem 0;
+	border-bottom: 0.3px solid #2c3e50;
+}
+
+.authorized_links a{
+	color: #d2674e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
