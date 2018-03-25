@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
 #background{
 	background-image: image-url("homepage_background.jpg");
 	height: 100vh;
@@ -59,9 +60,10 @@ li{
 	margin-left: 2.5rem;
 	font-size: 1.2rem;
 }
-a{
+a.navs{
 	color: #ffffff;
 	text-decoration: none;
+	padding-right: 60px;
 }
 .cf:before, .cf:after{
 	content: " ";
@@ -137,6 +139,7 @@ body{
 	font-size: 1.5rem;
 	letter-spacing: 2.5px;
 	text-decoration: none;
+	padding-left: 40px;
 }
 #navigation{
 	float: right;
@@ -174,17 +177,17 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	margin-bottom: 4rem;
+	margin-bottom: 4rem;	
 }
-.songs_banner{
-	background-image: image-url("podcasts_banner.jpg");
+.podcasts_banner{
+	background-image: url("podcasts_banner.jpg");
 
 }
 .signin_banner{
-	background-image: image-url("sign_in_banner.jpg");
+	background-image: url("sign_in_banner.jpg");
 }
 .signup_banner{
-	background-image: image-url("sign_up_banner.jpg");
+	background-image: url("sign_up_banner.jpg");
 }
 #banner h1{
 	text-align: center;
@@ -195,6 +198,81 @@ a{
 	margin:0;
 	padding: 8rem 0;
 }
+
+#podcasts{
+	padding-bottom: 3rem;
+}
+#podcasts ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+#podcasts li{
+	width: 23%;
+	float: left;
+	margin: 0 1% 2rem 1%;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
+}
+#podcasts img{
+	width: 100%;
+	max-width: 100%;
+	border-radius: 0.45rem .45rem 0 0;
+}
+.podcast_overview{
+	padding: 1rem 7.5%;
+}
+.podcast_overview h2{
+	
+	font-size: 1.4rem;
+	font-weight: 700;
+	color:#2c3e50;
+}
+
+/* podcast_show */
+#episodes{
+	padding: 3rem 0;
+}
+#episodes ul{
+	list-style: none;
+	padding-left: 0;
+}
+#episodes li{
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #2c3e50;
+}
+.episode_thumbnail{
+	width: 25%;
+	float: left;
+}
+.episode_thumbnail img{
+	width: 10rem;
+	max-width: 100%;
+	border-radius: .45rem;
+}
+
+/* dashboard */
+#links{
+	padding: 2rem 0;
+	border-bottom: 0.3px solid #2c3e50;
+}
+
+.authorized_links a{
+	color: #d2674e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import 'normalize';
 @import 'songs_list';
