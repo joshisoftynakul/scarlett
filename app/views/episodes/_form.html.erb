@@ -1,0 +1,12 @@
+<%= form_for ([@podcast, @episode]) do |f| %>
+	<%= f.label :title %><br>
+	<%= f.text_field :title %>
+
+	<br>
+	<br>
+
+	<%= f.label :rating %>
+	<%= f.text_field :rating %>
+
+	<%= f.submit class: "button" %>
+<% end %>
