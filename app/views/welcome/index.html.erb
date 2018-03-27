@@ -7,7 +7,7 @@
 					<li><%= link_to "Explore", podcasts_path, class: "navs" %></li>
 					<li><%= link_to "Sign In", new_podcast_session_path, class: "navs" %></li>
 					<% else %>
-						<li><a href="" class="navs">Dashboard</a></li>
+						<li><%= link_to "Dashboard", root_path  %>></li>
 						<li><%= link_to "Explore", podcasts_path, class: "navs" %></li>
 						<li><%= link_to "Sign Out", destroy_podcast_session_path, method: :delete, class: "navs" %></li>
 					<% end %>

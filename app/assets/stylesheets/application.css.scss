@@ -239,7 +239,7 @@ a{
 }
 #episodes li{
 	padding-bottom: 2rem;
-	border-bottom: 1px solid #2c3e50;
+	border-bottom: 1px solid #ecf0f1;
 }
 .episode_thumbnail{
 	width: 25%;
@@ -251,25 +251,16 @@ a{
 	border-radius: .45rem;
 }
 
+
 /* dashboard */
 #links{
 	padding: 2rem 0;
-	border-bottom: 0.3px solid #2c3e50;
+	border-bottom: 2px solid #ecf0f1;
 }
 
 .authorized_links a{
 	color: #d2674e;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @import 'normalize';

@@ -55,35 +55,13 @@
 			color: #ffffff;
 			margin: 0 0 .5rem 0;
 		}
-		.description {
-			width: 85%;
-			line-height: 1.75;
-			margin: 0 auto 2rem auto;
-			color: lighten(#2c3e50, 20%);
-		}
-		.subscribe_link {
-			font-size: .6rem;
-			text-transform: uppercase;
-			font-weight: 700;
-			text-align: center;
-			color: #ffffff;
-			display: inline;
-			background: #d2674e;
-			border-radius: 2rem;
-			padding: .5rem 1rem;
-			margin: 0 .5rem;
-			text-decoration: none;
-			&:hover {
-				background: darken(#d2674e, 10%);
-			}
-		}
 	}
 	#breadcrumb {
 		padding: 1rem 0;
 		text-align: center;
 		border-bottom: 1px solid lighten(#2c3e50, 75%);
 		font-weight: 700;
-		font-size: .7rem;
+		font-size: .9rem;
 		a {
 			color: lighten(#2c3e50, 45%);
 			text-decoration: none;
@@ -141,7 +119,7 @@
 	#episode_content {
 		padding: 4rem 0;
 		margin-bottom: 4rem;
-		border-bottom: 1px solid lighten(#2c3e50, 75%);
+		border-bottom: 3px solid #ecf0f1;
 		.current_episode_thumbnail {
 			display: block;
 			margin: 0 auto 2rem auto;
@@ -163,8 +141,8 @@
 			text-decoration: none;
 		}
 		.jp-jplayer,.jp-audio {
-    width: 70%;
-    margin: 3rem auto .5rem auto;
+   			width: 70%;
+    		margin: 3rem auto .5rem auto;
 		}
 		.jp-title {
 	    font-size: 12px;

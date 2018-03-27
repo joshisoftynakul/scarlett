@@ -1,12 +1,12 @@
 <div id="podcast_show">
       <div id="show_banner">
-        <h1>Acid Rap Dashboard</h1>
+        <h1>Dashboard</h1>
       </div>
 
       <div id="links">
         <div class="wrapper_skinny">
           <ul>
-            <li><a href="">Songs</a></li>
+            <li><%= link_to "Songs", podcasts_path %></li>
             <li><a href="">New Song</a></li>
             <li><%= link_to "Account Settings", edit_podcast_registration_path %></li>
           </ul>
