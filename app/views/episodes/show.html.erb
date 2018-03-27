@@ -15,7 +15,7 @@
 
 			<div id="episode_content">
 				<div class="wrapper_skinny">
-					
+					<%= image_tag @episode.episode_thumbnail.url(:medium) %>
 					<h2><%= @episode.title %></h2>
 					<p class="description"><%= @episode.rating %></p>
 
@@ -31,7 +31,7 @@
 							<li class="cf">
 								<div class="episode_thumbnail">
 									<a href="episode.html">
-										
+										<%= image_tag episode.episode_thumbnail.url(:medium) %>
 									</a>
 								</div>
 								<div class="episode_overview">
